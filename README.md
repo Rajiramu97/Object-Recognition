@@ -1,2 +1,2 @@
 # Object-Recognition
-Object recognition for blind people and dataset is trained on household environment objects.If we capture the object using camera, the model will identify and tell the name of the object in voice.
+Object recognition for blind people and dataset is trained on household environment objects.If we capture the object using camera, the model will identify and tell the name of the object in voice.Dataset consists of objects like chair, cup, door, lock, stick, sunglass, shirt, radio, lock, slippers, soap box. Images are collected from google and data augmentation has been done to virtually enlarge the dataset size. Pre trained model VGG 16 is used as feature extractor and extracted features are trained using Logistic regression algorithm.
